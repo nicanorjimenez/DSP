@@ -1,0 +1,16 @@
+//Grade_WDD
+			echo "<br><br>";
+			$name = "Student";
+			$grade = 59;
+			if ($grade >= 70) 
+			{
+				echo "Name: ".$name . "<br>Grade: ". $grade . ", you passed congratulations <br>";
+			} 
+			elseif (($grade >=60) && ($grade <=69))
+			{
+				echo "Name: ".$name . "<br>Grade: ".$grade . ", get remedial exam to better your grade<br>";
+			}
+			else
+			{
+				echo "Name: ".$name . "<br>Grade: ".$grade . ", you failed better review next time <br>";
+			}
